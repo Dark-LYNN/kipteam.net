@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kipteam.net - Home</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Discord Embed -->
+	<meta property="theme-color" content="00a6ff" /> 			<!-- Embed Color -->
+	<meta property="og:url" content="https://kipteamnet.toroeen.repl.co/" /> 		<!-- Title Link -->
+	<meta property="og:type" content="website" /> 			<!-- Let discord know its a website link -->
+	<meta property="og:title" content="Kipteam.Net" />		<!-- Embed Title -->
+	<meta property="og:site_name" content="Made by: kipteam#3048" />	<!-- Embed Gray Text above title -->
+	<meta property="og:description" content="The official kipteam website! Follow up on projects and more!" /> 		<!-- Embed Description -->
+
+  
+</head>
+<body>
+
+<div class="navbar">
+
+	<img src="/static/images/logoR.png" class="logo" onclick="window.location.href='https://KipteamNet.toroeen.repl.co/'">
+
+		<nav>
+			<ul>
+				<li><a class="clicked" href="https://KipteamNet.toroeen.repl.co/">Home</a></li>
+				<li><a onclick="window.open('https://discord.gg/Vk6tTejf6C')">Discord</a></li>
+				<li><a href="downloads">Downloads</a></li>
+				<li><a href="about">About</a></li>
+				<div class="dropdown">
+					<li><a class="dropdown-clicked" href="projects">Projects</a></li>
+						<div class="dropdown-content">
+					      <a href="projects#api">Api</a>
+					      <a href="projects#bots">Bots</a>
+                <a href="projects#sq">Stick Squares</a>
+                <a href="projects#scamplex">Scamplex</a>
+					    </div>
+				</div>
+			</ul>
+		</nav>
+</div>
+
+<div class="topic1">
+  <section id="intro">
+    <h1>Hi I am kipteam!</h1>
+    <p>
+      I am a developer and high school student who lives in Beglium. <br>
+      On this site you can find links to my work, but also info about me and more!
+    </p>
+  </section>
+  <section id="discord">
+    <h1>Discord</h1>
+    <p>
+      Since I am a really active discord user, I couldn't stop myself from advertising my dead discord server. <br>
+      If you feel like joinig, go ahead, were more then happy to welcome you!
+    </p>
+  </section> 
+  <section id="downloads">
+    <h1>Downloads</h1>
+    <p>
+      If you feel like supporting my work in any way,you can always head over to <a href="downloads">Downloads</a>. <br>
+      Everything I made that is available to be downloaded can found there!
+    </p>
+  </section>
+  <section id="about">
+      <h1>About</h1>
+      <p>
+        I have a short about me page so if you want to get to me know me a little bit more, head over to <a href="about">About</a>.
+      </p>
+  </section>
+  <section id="projects">
+    <h1>Projects</h1>
+    <p>
+      The overactive person I am makes me do a lot of stuff. <br>
+      Though most of that stuff never gets finished (Look at my downloads page, it's empty!). <br>
+      But I do document most of my projects in my projects page. <br>
+      So if your interested in what I am doing, go check it out! 
+</div>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kipteam.net - Projects</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="navbar">
+
+	<img src="/static/images/logoR.png" class="logo" onclick="window.location.href='https://KipteamNet.toroeen.repl.co/'">
+
+		<nav>
+			<ul>
+				<li><a href="https://KipteamNet.toroeen.repl.co/">Home</a></li>
+				<li><a onclick="window.open('https://discord.gg/Vk6tTejf6C')">Discord</a></li>
+				<li><a href="downloads">Downloads</a></li>
+				<li><a href="about">About</a></li>
+				<div class="dropdown">
+					<li><a class="dropdown-clicked" href="projects">Projects</a></li>
+						<div class="dropdown-content">
+					      <a href="#api">Api</a>
+					      <a href="#bots">Bots</a>
+                <a href="#sq">Stick Squares</a>
+                <a href="projects#scamplex">Scamplex</a>
+					    </div>
+				</div>
+			</ul>
+		</nav>
+</div>
+
+<div class="topic1">
+  <section id="api">
+    <h1>Api</h1>
+    <p>
+      <strong>Endpoints</strong> <br>
+        - /revive => Gives you a random conversation starter. [37 Different responses] <br>
+        - /fact => Gives you a random fact. [17 Different responses] <br>
+        - /rar => Gives you a random Roses Are Red meme. [14 Different responses] <br>
+        - /meme?discord=true => Gives a random meme that is optimised for discord [2 Different responses] <br>
+      <strong>Example usage</strong> <br>
+        - https://botboysapi.toroeen.repl.co/revive => Will return a random conversation starter. 
+    </p>
+  </section>
+  <section id="bots">
+      <h1>Bots</h1>
+      <p>
+        ye, i also make bots.
+      </p>
+  </section>
+
+  <section id="sq">
+      <h1>Sticky Squares</h1>
+      <p>
+        Stick Squares is a mobile game in am currently developing. <br>
+        It will be a game about solving puzzles and... well generally using your brain! <br>
+        I hope on releasing it sometime soon, but I cant really tell for sure when! 
+      </p>
+  </section>
+
+  <section id="scamplex">
+      <h1>Scamplex</h1>
+      <p>
+        I am currently also working on a scam prevention site. <br>
+        The site would be about teaching you and showing you how you can get scammed and how to prevent it in the future. <br>
+        The project is currently focussing on Discord
+      </p>
+  </section>
+</div>
+
+</body>
+</html>
